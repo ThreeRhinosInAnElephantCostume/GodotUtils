@@ -12,7 +12,6 @@ using ExtraMath;
 using Godot;
 using Newtonsoft.Json;
 using static System.Math;
-using static Globals;
 using static Utils;
 using Expression = System.Linq.Expressions.Expression;
 

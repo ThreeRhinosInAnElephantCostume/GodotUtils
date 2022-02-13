@@ -148,9 +148,9 @@ public static partial class Utils
     {
         List<string> ret = new List<string>();
         Directory dm = new Directory();
-        void ListRecursively(string path)
+        void ListRecursively(string cpath)
         {
-            foreach (var it in ListDirectoryContents(path))
+            foreach (var it in ListDirectoryContents(cpath))
             {
                 if (dm.DirExists(it))
                 {
